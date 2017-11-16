@@ -1,0 +1,54 @@
+import os
+import platform
+import sys
+
+def Inputchecker (word, letter, hang):
+	Length = len(word)
+	LettLoc = word.find(letter)
+	print(LettLoc)
+	coun = 0
+	if (LettLoc > -1):
+		coun+=1
+		print("That letter was in the word")
+	else:
+		print("Non of that letter in the word, try again")
+	if (count < Length ):
+		f = False
+	else:
+		f = True
+	return f
+	
+def Conv(word):
+	Count2 = 0
+	BlankedWord = ""
+	BlankNum = len(word)
+	while (Count2 < BlankNum):
+		BlankedWord += "_ "
+		Count2 += 1
+	return BlankedWord
+	
+
+count = 0
+found = False	
+print("Welcome to Hangman")
+Wordtofind = input("Player 1 enter a word to be guessed ")
+HangWord = Conv(Wordtofind)
+os.system('cls')
+print("The word for player 2 to find out is ", HangWord)
+while (count <= 10 and found == False) :
+	LetterToTest = input("Player 2 enter a letter ")
+	found = Inputchecker(Wordtofind, LetterToTest, HangWord)
+	count += 1
+if (found == True):
+	print ("You got the word! Player 2 Wins")
+elif(found == False):
+	print ("You didn't get the word! Player 1 Wins")
+else :
+		print("Error!! Please notify coder")
+
+	
+	
+	
+#print(os.name)
+#print(platform.system())
+#os.system('clear')
