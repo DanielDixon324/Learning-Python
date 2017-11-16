@@ -1,6 +1,10 @@
 #test.py
 import sys
 import requests
-req = requests.get('http://resources.infosecinstitute.com/')
+
+#Websites
+#http://resources.infosecinstitute.com/ - Where you got the code from
+#http://google.com/
+req = requests.get('')
 print('Response Code: ' + str(req.status_code))
 print('\nResponse:\n' + req.text)
