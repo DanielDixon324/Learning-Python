@@ -1,7 +1,12 @@
 # Learning-Python
 My project to teach myself python step by step in both python and using visual studio. If you see any errors in the code I would be happy to hear them. This is also my project to learn how uploading to Github works and the process of creating a repository.
 
+Primary Goals for this Project:
+1.To understand the Basics of Python coding and see it's main differences to OOP and other languages
+2.To research how python can be used in coding projects and where it's uses lie
 
+Secondary Goals for this Project:
+1.To use Python in integrating code into hardware or to use it in better learning cybersecurity topics and how crackers would get to data
 
 Test 1 - Hello World. My first python test involves doing the classsic code of Hello world, it also involve the creation and calling of a function and the use of user input to give the user a name.
 
