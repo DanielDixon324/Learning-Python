@@ -9,6 +9,6 @@ Test 2 - Calculator. After getting the basics down I moved on to using functions
 
 Test 3 - Hangman. I took this as a coding prompt from a python coding ideas website and it was a good challenge for my skill level at the time. It used different libraries, different algorithms and just all round a lot more detailed code.
 
-Test 4 - Dice. 
+Test 4 - Dice. I'd made this one on a whim after not doing python for a little while, it was to just remind myself how the specific pieces worked and get me back on track to learning Python.
 
-Test 5 - URLs.
+Test 5 - URLs. I wished to move on to code that interacts with the system more as I enjoy learning how to integrate code with equipment, my first attempt at doing so involved working on accessing website code from using python.
